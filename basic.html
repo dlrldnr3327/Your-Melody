@@ -1,0 +1,108 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <style>
+        #nav{
+            list-style:none;
+            height:40px;
+            padding:5px 1px;
+            margin:0;
+            background:black;
+        }
+        #nav li{
+            float:left;
+            position:relative;
+            margin:5px 6rem;
+            padding:0;
+        }
+        #nav li a{
+            display:block;
+            font-family:"굴림";
+            font-weight:bold;
+            font-size:18px;
+            padding:7px 8px;
+            margin:0;
+            color:white;;
+            margin:0;
+            text-decoration:none;
+            text-shadow:0 1px 1px;
+        }
+        #nav li:hover>a{
+            background:black;
+            color:white;
+            margin:0;
+            padding:5px;
+        }
+        #nav ul{
+            list-style:none;
+            margin:0;
+            padding:0;
+            position:absolute;
+            left:0;
+            top:40px;
+            width:105px;
+            background:black;
+            text-align:center;
+            opacity:0;
+        }
+        #nav ul li{
+            float:none;
+            margin:0;
+            padding:0;
+            font-size:10px;
+        }
+        #nav ul a{
+            font-weight:nomal;
+            color:white;
+        }
+        #nav ul li:hover a{
+            background:black;
+            font-weight:bold;
+        }
+        #nav li:hover ul{
+            opacity:1;
+        }
+        #nav li:hover ul li{
+            height:35px;
+            overflow:visible;
+            padding:0;
+        }
+        body{
+             background-image:url(file:///Users/dlrldnr3327/Desktop/Your%20Melody/turntable-1109588_1920.jpg)
+            
+        }
+        h1{
+            color:black;
+            background-color:white;
+            display:inline-block;
+        }
+        div{
+            text-align: center;
+            margin-top:300px;
+        }
+        </style>
+        <title>Melody With You</title>
+    </head>
+    <body>
+        <h1>Melody With you</h1>
+            <ul id="nav">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">About</a></li>
+                <li id="genre"><a href="#">Music</a>
+                <ul>
+                    <li><a href="#">Pop</a></li>
+                    <li><a href="#">Jazz</a></li>
+                    <li><a href="#">Ballad</a></li>
+                    <li><a href="#">Cinema</a></li>
+                    <li><a href="#">CityPop</a></li>
+                    <li><a href="#">Rock</a></li>
+                </ul></li>
+                <li><a href="#">Q&A</a></li>
+                <li><a href="#">contect</a></li>
+            </ul>
+
+            <div><h3>방구석 작곡가들의 공간</h3></div>
+    </body>
+</html>
